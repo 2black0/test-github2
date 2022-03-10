@@ -19,3 +19,25 @@ change directory to your local repository
 type git remote set-url origin https://<token>@github.com/<git_url> eg: git remote set-url origin https://aaabbbccc@github.com/aaabbbccc.git
 then pull once by typing git pull https://<token>@<git_url>.git eg: git pull https://aaabbbccc@github.com/aaabbbccc.git
 you’re ready to do git add . , git commit -m "aaa bbb ccc and git push origin master
+
+Sudah beberapa waktu ini, Github meminta pengguna untuk mengakses repositori menggunakan personal access token. Bukan menggunakan user dan password seperti biasa.
+
+Begini caranya
+Create your personal access token following this link .
+Copy the created token, paste it somewhere
+Copy the https link of your repository, paste it somewhere
+open terminal (Windows prompt kalau Anda menggunakan Windows)
+change directory to your local repository
+type git remote set-url origin https://<token>@github.com/<git_url> eg: git remote set-url origin https://aaabbbccc@github.com/aaabbbccc.git
+then pull once by typing git pull https://<token>@<git_url>.git eg: git pull https://aaabbbccc@github.com/aaabbbccc.git
+you’re ready to do git add . , git commit -m "aaa bbb ccc and git push origin master
+
+Begini caranya
+Create your personal access token following this link .
+Copy the created token, paste it somewhere
+Copy the https link of your repository, paste it somewhere
+open terminal (Windows prompt kalau Anda menggunakan Windows)
+change directory to your local repository
+type git remote set-url origin https://<token>@github.com/<git_url> eg: git remote set-url origin https://aaabbbccc@github.com/aaabbbccc.git
+then pull once by typing git pull https://<token>@<git_url>.git eg: git pull https://aaabbbccc@github.com/aaabbbccc.git
+you’re ready to do git add . , git commit -m "aaa bbb ccc and git push origin master
